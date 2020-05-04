@@ -3,20 +3,22 @@ img, object{
 	max-width:100%;
 }
 
-.banner
-{float: center; }
+.banner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
-.home
+.column {
+  float: left;
+  width: 33.33%;
+}
 
-{float: home; }
-
-.about
-
-{float: about; }
-
-.contact
-
-{float: contact; }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .sale
 

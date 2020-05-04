@@ -8,15 +8,15 @@ img, object{
 
 .home
 
-{float: center; }
+{float: home; }
 
 .about
 
-{float: center; }
+{float: about; }
 
 .contact
 
-{float: center; }
+{float: contact; }
 
 .sale
 
